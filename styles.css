@@ -74,6 +74,10 @@
     margin-bottom: 1rem;
     font-size: 1.2rem;
   }
+   
+  .prep-time ul{
+    padding: 1.5rem
+  }
   
   .prep-time ul li {
     margin-bottom: 0.5rem;
