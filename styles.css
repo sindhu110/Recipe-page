@@ -24,12 +24,13 @@
     justify-content: center;
     padding: 3rem 1rem;
     color: var(--color-stone900);
+    font-size: 16px;
   }
   
   
   .container {
     background-color: var(--color-white);
-    max-width: 720px;
+    max-width: 650px;
     border-radius: 1rem;
     overflow: hidden;
     
@@ -38,8 +39,8 @@
  
   .container img {
     width: 100%;
-    display: block;
-    height: auto;
+    border-radius: 2.5rem;
+    padding: 2rem;
   }
  
   .content {
@@ -106,7 +107,7 @@
    color: var(--color-brown800) 
   }
 
-  .instructions ul li::marker{
+  .instructions ol li::marker{
     color: var(--color-brown800)
   }
   
