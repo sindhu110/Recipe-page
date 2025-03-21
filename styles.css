@@ -48,15 +48,15 @@
   }
   
   
-  .content h1 {
+  .recipe-title{
     font-family: 'Young Serif', serif;
     font-size: 2rem;
-    color: var(--color-brown800);
+    color: var(--color-stone900);
     margin-bottom: 1rem;
   }
   
-  .content p {
-    font-size: 1rem;
+  .description {
+    font-size: 0.867rem;
     color: var(--color-stone600);
     margin-bottom: 2rem;
   }
