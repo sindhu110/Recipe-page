@@ -35,12 +35,16 @@
     overflow: hidden;
     
   }
+
+  .image-container {
+    padding: 2rem;
+  }
   
  
-  .container img {
+  .image-container img {
     width: 100%;
     border-radius: 2.5rem;
-    padding: 2rem;
+    margin-bottom: 0;
   }
  
   .content {
@@ -54,6 +58,7 @@
     color: var(--color-stone900);
     margin-bottom: 1rem;
     font-weight: 500;
+    margin-top: 1rem;
   }
   
   .description {
@@ -104,7 +109,7 @@
   .instructions ol li {
     margin-bottom: 0.75rem;
     color: var(--color-stone600);
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     font-size: 0.95rem;
   }
    
