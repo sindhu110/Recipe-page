@@ -53,6 +53,7 @@
     font-size: 2rem;
     color: var(--color-stone900);
     margin-bottom: 1rem;
+    font-weight: 500;
   }
   
   .description {
@@ -66,7 +67,7 @@
     background-color: var(--color-rose50);
     padding: 1.5rem;
     border-radius: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   
   .prep-time h3 {
@@ -74,17 +75,23 @@
     margin-bottom: 1rem;
     font-size: 1.2rem;
   }
+
+  .prep-time ul {
+    padding-left: 1.5rem;
+  }
    
   .prep-time ul li {
     margin-bottom: 0.5rem;
     color: var(--color-stone600);
+    padding-left: 1rem;
   }
   
  .section-title {
     font-family: 'Young Serif', serif;
     color: var(--color-brown800);
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    font-weight: 400;
   }
   
   .ingredients ul,
@@ -97,6 +104,8 @@
   .instructions ol li {
     margin-bottom: 0.75rem;
     color: var(--color-stone600);
+    padding-left: 1.5rem;
+    font-size: 0.95rem;
   }
    
   .prep-time ul li::marker {
@@ -126,6 +135,11 @@
     width: 100%;
     border-collapse: collapse;
   }
+
+  .nutrition p{
+    margin-bottom: 1rem;
+    color: var(--color-stone600);
+  }
   
   .nutrition table tr {
     border-bottom: 1px solid var(--color-stone150);
@@ -142,10 +156,12 @@
   .nutrition table td:first-child {
     color: var(--color-stone600);
     text-align: left;
+    padding-left: 2rem;
   }
   
   .nutrition table td:last-child {
     color: var(--color-brown800);
     font-weight: bold;
     text-align: right;
+    padding-right: 10rem;
   }
